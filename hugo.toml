@@ -1,0 +1,4 @@
+baseURL = 'https://belablotski.github.io/belablotski/'
+languageCode = 'en-us'
+title = 'Aliaksei Belablotski'
+theme = 'ananke'
