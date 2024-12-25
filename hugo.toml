@@ -3,9 +3,8 @@ languageCode = 'en-us'
 title = 'Aliaksei Belablotski'
 theme = 'ananke'
 # theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
-# resourceDir = "./resources"
-
-sectionPagesMenu = "main"
+# resourceDir = './resources'
+sectionPagesMenu = 'main'
 enableRobotsTXT = true
 
 [services.googleAnalytics]

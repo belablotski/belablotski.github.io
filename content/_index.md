@@ -1,5 +1,6 @@
 +++
-title = "Ananke: a Hugo Theme"
+menus = 'main'
+title = 'Posts'
 description = "The last theme you'll ever need. Maybe."
 [cascade]
   featured_image = "/images/gohugo-default-sample-hero-image.jpg"
