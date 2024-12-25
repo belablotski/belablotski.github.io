@@ -1,7 +1,7 @@
 +++
-menus = 'main'
-title = 'Posts'
-description = "The last theme you'll ever need. Maybe."
+title = 'Homepage'
+description = "Homepage............ The last theme you'll ever need. Maybe."
+recent_posts_number = 3
 [cascade]
   featured_image = "/images/gohugo-default-sample-hero-image.jpg"
 +++

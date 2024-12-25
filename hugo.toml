@@ -4,7 +4,7 @@ title = 'Aliaksei Belablotski'
 theme = 'ananke'
 # theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
 # resourceDir = './resources'
-sectionPagesMenu = 'main'
+# sectionPagesMenu = 'main'
 enableRobotsTXT = true
 
 [services.googleAnalytics]
