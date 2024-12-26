@@ -31,6 +31,9 @@ featured_image_class = "cover bg-top"
 # choose a color dimming class for the page or site header from any on this page: https://tachyons.io/docs/themes/skins/, preface it with "bg-" and add the value such as "-X0" where X is in [1,9]
 cover_dimming_class = "bg-black-60"
 recent_posts_number = 3
+[customCSS]
+  href = "/css/custom.css"
+
 
 [params.ananke.social.share]
 networks = [
@@ -52,6 +55,13 @@ username = "belablotski"
 
 [params.ananke.social.linkedin]
 username = "belablotski"
+
+[markup]
+  [markup.tableOfContents]
+    # See https://gohugo.io/methods/page/tableofcontents/
+    startLevel = 2
+    endLevel = 3
+    ordered = true
 
 [services.disqus]
 shortname = 'YOURSHORTNAME'

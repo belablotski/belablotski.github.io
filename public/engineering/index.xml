@@ -13,7 +13,7 @@
       <link>http://localhost:1313/engineering/hugo/</link>
       <pubDate>Sun, 22 Dec 2024 14:19:12 -0800</pubDate>
       <guid>http://localhost:1313/engineering/hugo/</guid>
-      <description>&lt;p&gt;Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.&lt;/p&gt;&#xA;&lt;p&gt;And this is how this web site was built.&lt;/p&gt;</description>
     </item>
     <item>
       <title>My First Post</title>
