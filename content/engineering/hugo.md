@@ -1,3 +1,11 @@
++++
+date = '2024-12-22T14:19:12-08:00'
+draft = false
+title = 'Hugo - static site generator'
++++
+Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.
+<!--more-->
+
 # Learning
 
 1. [Learning resources](https://gohugo.io/getting-started/external-learning-resources/)
