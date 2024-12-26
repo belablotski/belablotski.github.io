@@ -27,10 +27,34 @@
 
 1. [Directory structure](https://gohugo.io/getting-started/directory-structure/)
 
-# Pages
+# Content creation
+
+## Pages
 
 1. Create page `hugo new content content/posts/my-first-post.md`
-2. [_index.md](https://gohugo.io/content-management/organization/#index-pages-_indexmd)
+2. Page bundles and [_index.md](https://gohugo.io/content-management/organization/#index-pages-_indexmd)
+
+## Context organization
+
+1. [Taxonomies](https://gohugo.io/content-management/taxonomies/). Taxonomy, term, value.
+2. [Default taxonomimes](https://gohugo.io/content-management/taxonomies/#default-taxonomies). Hugo automatically creates taxonomies for `tags` and `categories` (unless `disableKinds` turns it off).
+3. [Configure taxonomies](https://gohugo.io/content-management/taxonomies/#configure-taxonomies)
+4. [Assign terms to content](https://gohugo.io/content-management/taxonomies/#assign-terms-to-content): `categories = ['Category A', 'Category B'] tags = ['Tag A', 'Tag B']`. [Taxonomic weight](https://gohugo.io/content-management/taxonomies/#order-taxonomies) - ordering.
+
+|Kind|Description|Example|
+|----|-----------|-------|
+|home|The landing page for the home page|/index.html|
+|page|The landing page for a given page|my-post page (/posts/my-post/index.html)|
+|section|The landing page of a given section|posts section (/posts/index.html)|
+|taxonomy|The landing page for a taxonomy|tags taxonomy (/tags/index.html)|
+|term|The landing page for one taxonomy’s term|term awesome in tags taxonomy (/tags/awesome/index.html)|
+
+## Templates
+
+1. [Page kings](https://gohugo.io/content-management/taxonomies/#default-taxonomies): home, page (=single), section, taxonomy, and term. Single `layouts/_default/single.html`, list page (section listings, home page, taxonomy lists, taxonomy terms) `layouts/_default/list.html`
+2. [Template types](https://gohugo.io/templates/types/) ([base](https://gohugo.io/templates/types/#base), [home](https://gohugo.io/templates/types/#base), [single](https://gohugo.io/templates/types/#single), [section](https://gohugo.io/templates/types/#section), [taxonomy](https://gohugo.io/templates/types/#taxonomy)) and [Lookup order](https://gohugo.io/templates/lookup-order/)
+3. `type` (page type) - this is a sub-folder in `layouts` folder, `layout` is a sub-folder under `layouts/page_type`.
+
 
 # Preview and publish
 
