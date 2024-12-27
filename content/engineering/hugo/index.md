@@ -2,13 +2,16 @@
 date = '2024-12-22T14:19:12-08:00'
 draft = false
 title = 'Hugo - static site generator'
+description = 'The world’s fastest framework for building websites'
 toc = true
+featured_image = 'hugo-logo-wide.svg'
 ## Hugo will create http://localhost:1313/tags/web-dev/
 tags = ['web dev']
 +++
 Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.
 
-And this is how this web site was built.
+And this is how this web site was built - [Hugo](https://gohugo.io/) + [Ananke](https://github.com/theNewDynamic/gohugo-theme-ananke).
+
 <!--more-->
 
 ## Learning
@@ -46,6 +49,7 @@ And this is how this web site was built.
 
 1. Create page `hugo new content content/posts/my-first-post.md`
 2. Page bundles and [_index.md](https://gohugo.io/content-management/organization/#index-pages-_indexmd)
+3. List pages `hugo list published` or `hugo list drafts`
 
 ### Context organization
 
@@ -74,5 +78,5 @@ And this is how this web site was built.
 ### Preview
 
 1. Local site `hugo server`
-2. Preview your work before publishing `hugo server --buildDrafts --buildFuture`
+2. Preview your work before publishing `hugo server --buildDrafts --buildFuture --buildExpired` or simple `hugo server -DEF`
 3. `hugo server --navigateToChanged`

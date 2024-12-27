@@ -6,7 +6,7 @@ description = 'by Donella Meadows'
 featured_image = 'thinking_in_systems.png'
 tags = ['Book']
 +++
-Systems thinking is essential for addressing complex challenges: Understanding system dynamics is crucial for developing effective and sustainable solutions to environmental, social, and economic problems.
+Systems thinking is essential for addressing complex challenges: understanding system dynamics is crucial for developing effective and sustainable solutions to environmental, social, and economic problems.
 
 <!--more-->
 
@@ -24,3 +24,5 @@ My takeaways from Donella Meadows' "Thinking in Systems":
     * Delays can cause instability: Time lags in feedback loops can lead to oscillations, overshoots, and unintended consequences.
 5. Leverage Points: These are places within a system where a small intervention can produce significant and lasting change.
     * Identifying and influencing key points within a system, such as rules, information flows, and paradigms, can have a significant impact on system behavior.
+
+I highly recommend this book! It provides a framework of simple abstractions that will help you understand and predict how systems behave. And it's applicable everywhere, even much beyond the software engineering.
