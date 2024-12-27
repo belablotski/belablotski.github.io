@@ -63,5 +63,5 @@ username = "belablotski"
     endLevel = 3
     ordered = true
 
-[services.disqus]
-shortname = 'YOURSHORTNAME'
+# [services.disqus]
+# shortname = 'YOURSHORTNAME'
