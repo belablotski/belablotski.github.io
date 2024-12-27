@@ -24,8 +24,14 @@ And this is how this web site was built - [Hugo](https://gohugo.io/) + [Ananke](
 
 ### Install Hugo
 
-1. Install Hugo for Debian Linux (ChromeOS) `sudo dpkg -i /mnt/chromeos/MyFiles/Downloads/hugo_extended_0.140.1_linux-amd64.deb` binaries are from [hugo/releases](https://github.com/gohugoio/hugo/releases)
+#### Debian Linux or Google ChromeOS
+
+1. `sudo dpkg -i /mnt/chromeos/MyFiles/Downloads/hugo_extended_0.140.1_linux-amd64.deb` binaries are from [hugo/releases](https://github.com/gohugoio/hugo/releases)
 2. Unfortunately Debian package repo has very old version, but `sudo apt install hugo` still works.
+
+#### MacOS
+
+1. Download binaries for Derwin OS [hugo_extended_0.140.1_darwin-universal.tar.gz](https://github.com/gohugoio/hugo/releases/download/v0.140.1/hugo_extended_0.140.1_darwin-universal.tar.gz)
 
 ### Site creation and configuration
 
