@@ -27,11 +27,12 @@ And this is how this web site was built - [Hugo](https://gohugo.io/) + [Ananke](
 #### Debian Linux or Google ChromeOS
 
 1. `sudo dpkg -i /mnt/chromeos/MyFiles/Downloads/hugo_extended_0.140.1_linux-amd64.deb` binaries are from [hugo/releases](https://github.com/gohugoio/hugo/releases)
-2. Unfortunately Debian package repo has very old version, but `sudo apt install hugo` still works.
+2. Unfortunately Debian package repo has very old version, but `sudo apt install hugo` still works (installs 0.111 as of now).
 
 #### MacOS
 
-1. Download binaries for Derwin OS [hugo_extended_0.140.1_darwin-universal.tar.gz](https://github.com/gohugoio/hugo/releases/download/v0.140.1/hugo_extended_0.140.1_darwin-universal.tar.gz)
+1. Download binaries for Derwin OS [hugo_extended_0.140.1_darwin-universal.tar.gz](https://github.com/gohugoio/hugo/releases/download/v0.140.1/hugo_extended_0.140.1_darwin-universal.tar.gz), unpack, enjoy.
+
 
 ### Site creation and configuration
 
