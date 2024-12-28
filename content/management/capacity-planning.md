@@ -1,6 +1,6 @@
 +++
 date = '2024-12-27T21:51:58-08:00'
-draft = true
+draft = false
 title = 'Capacity Planning'
 tags = ['management']
 +++
