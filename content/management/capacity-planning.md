@@ -6,7 +6,7 @@ tags = ['management']
 toc = true
 +++
 
-## Quoterly Team Capacity Planning
+## Quaterly Team Capacity Planning
 
 This formal process provides a structured approach to team capacity planning, enabling more accurate resource allocation, improved project predictability, and enhanced team performance.
 <!--more-->
