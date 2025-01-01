@@ -62,3 +62,7 @@ Operate Metrics
     2. Mean Time to Restore for Major Incidents (Critical, High, Medium)
     3. Non-Major Incidents (Critical, High, Medium)
 Mean Time to Restore for Non-Major Incidents (Critical, High, Medium)
+
+
+See also:
+1. https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests
