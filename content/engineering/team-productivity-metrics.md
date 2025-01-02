@@ -66,3 +66,10 @@ Mean Time to Restore for Non-Major Incidents (Critical, High, Medium)
 
 See also:
 1. https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests
+
+
+```
+gh auth login
+
+gh search commits '' --repo belablotski/belablotski.github.io --author belablotski --sort author-date --limit 10
+```
