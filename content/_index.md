@@ -1,7 +1,7 @@
 +++
 title = 'Software Engineering / Management'
 description = 'Welcome to my personal website'
-recent_posts_number = 3
+recent_posts_number = 12
 [cascade]
   featured_image = '/images/ocean1.jpg'
 +++
