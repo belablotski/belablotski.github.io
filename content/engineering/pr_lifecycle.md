@@ -6,36 +6,42 @@ title = 'PR lifecycle'
 
 ```goat
      .----------------.
-  .->| lines of code  |
-  |  '-------+--------'
-  |          |
-  |          |add/commit
-  |          v
-  |  .---------------.
-  |  |     commit    |
-  |  '-------+-------'
-  |          |
-  |          |push
-  |          v
-  |          .               .----------.
-  |         / \         .--->| draft PR +------.
-  |        /   \        |    '----------'      |
-  |       /     \      open                    v
-  |      / 1st   \  y   |                      .
-  |     .         +-----'                     / \         
-  |      \commit /                           /   \          
-  |       \     /                           /     \         
-  |        \   /                           /       \         
-  |         \ /                           /  ready  \        
-  |          .               .---------->.    for    .
-  |          | n             |            \ review? /        
-  |          |               |             \       /        
-  |          '---------------'              \     /        
-  |                                          \   /           
-  |                                           \ /           
-  |                                            .      
-  |                   build                  n |
-  '--------------------------------------------'
+  .->| lines of code  |<----------.         o start
+  |  '-------+--------'           |         |
+  |          |                    |start    |
+  |          |add/commit          |building |
+  |          v                    |         v
+  |  .---------------.        .---+------------.
+  |  |     commit    |       |    JIRA Story    |
+  |  '-------+-------'        '----------------'
+  |          |                    ^
+  |          |push                |link
+  |          v                    |
+  |          .               .----+-----.                    .---------.                 .-----------.
+  |         / \         .--->| draft PR +------.         .-->| open PR +---.         .-->| merged PR | 
+  |        /   \        |    '----------'      |         |   '---------'   |         |   '-----------'
+  |       /     \       |open                  v         |                 v         |
+  |      /  1st  \  y   |                      .         |                 .         |
+  |     .         +-----'                     / \        |remove          / \        |merge
+  |      \commit?/                           /   \       |draft          /   \       |
+  |       \     /                           /     \      |              /     \      |
+  |        \   /                           /       \     |             /       \     |
+  |         \ /                           /  ready  \  y |         y  / changes \    |
+  |          .               .---------->.    for    .---'       .---. requested .---'
+  |          | n             |            \ review? /            |    \    ?    /
+  |          |               |             \       /             |     \       /
+  |          '---------------'              \     /              |      \     /
+  |                                          \   /               |       \   /
+  |                                           \ /                '---.    \ /
+  |                                            .                     |     .
+  |           continue building              n |    address comments |
+  '--------------------------------------------'<--------------------'
+
+link to JIRA
+external world changed - abandone
+
+
+https://github.com/bep/goat?tab=readme-ov-file
 
     hard_work --> commit
     commit --> draft_pr
