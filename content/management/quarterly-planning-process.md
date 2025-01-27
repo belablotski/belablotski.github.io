@@ -1,12 +1,14 @@
 +++
 date = '2024-12-30T21:37:18-08:00'
-draft = true
+draft = false
 title = 'Quarterly Planning Process'
 tags = ['management']
 toc = true
 +++
 
 ## Quaterly Planning Process
+
+*Sorry, this page is not finished yet...* <!--TODO: finalize-->
 
 1. PRD reviews
 2. [Capacity Planning]({{< relref "/management/capacity-planning" >}})
