@@ -1,8 +1,12 @@
 +++
 date = '2025-01-24T23:01:20-08:00'
-draft = true
+draft = false
 title = 'Engineering excellence metrics'
 +++
+
+<!--TODO:finish-->
+
+Sorry, this articale is not finished yet, but the core idea should be visible from here:
 
 1. Commits in all PRs
     1. Commits to all PRs ratio

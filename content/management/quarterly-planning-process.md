@@ -1,7 +1,7 @@
 +++
 date = '2024-12-30T21:37:18-08:00'
 draft = true
-title = 'Quarterly Capacity Planning'
+title = 'Quarterly Planning Process'
 tags = ['management']
 toc = true
 +++
