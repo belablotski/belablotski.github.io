@@ -14,5 +14,5 @@ toc = true
 2. [Capacity Planning]({{< relref "/management/capacity-planning" >}})
 3. [Level-of-Effort Estimations]({{< relref "/management/loe-estimations" >}})
 4. Prioritization and commitment (see [Week 4 of the year 2025]({{< relref "/posts/week-2025-04" >}}))
-5. Build a game plan
+5. Build a game plan (see [Week 5 of the year 2025]({{< relref "/posts/week-2025-05" >}}))
 6. Present next quarter to the team
