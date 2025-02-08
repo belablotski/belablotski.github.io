@@ -4,7 +4,7 @@ date = '2025-02-02T18:26:12-08:00'
 draft = false
 featured_image = "images/deepseek-coder-on-chromebook.jpg"
 +++
-When it comes to running LLMs locally (or offline - i.e., not in the cloud), we have several tools to choose from. Coming from the "cloud-native" services, I was quite surprised by their popularity. However, after observing the rapid cloud cost aggregation, I decided to do a little research on the subject.
+When it comes to running LLMs locally (or offline - i.e., not in the cloud), we have several tools to choose from. Coming from the "cloud-native" services, I was quite surprised by their popularity. However, after observing the rapid cloud cost accumulation, I decided to do a little research on the subject.
 
 Probably the best article on the subject is https://getstream.io/blog/best-local-llm-tools/ - this is a great one-stop-shop to start your offline inferencing with open-source models.
 
