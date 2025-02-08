@@ -22,7 +22,8 @@ Sorry, this articale is not finished yet, but the core idea should be visible fr
     6. Merged PRs → main ratio
 5. AutoCRQ Deployments
     1. AutoCRQ PRs Lead Time
+<!--more-->
 
-![Engineering Metrics](./engg_excellence_example.png)
+![Engineering Metrics](images/engg_excellence_example.png)
 
 <!-- Rework Points and Rework Score. Use AI to estimate a complexity of PR and its quality. [Week 5 of the year 2025]({{< relref "/posts/week-2025-05" >}})-->
