@@ -68,8 +68,9 @@
   {{ if .Store.Get "hasMermaid" }}
     <script type="module">
       import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
-      {{/* avb: https://mermaid.js.org/config/theming.html*/}}
-      mermaid.initialize({ startOnLoad: true, theme: 'neutral', themeVariables: { darkMode: false }});
+      {{- /* avb: https://mermaid.js.org/config/theming.html*/}}
+      {{- /* mermaid.initialize({ startOnLoad: true, theme: 'base', themeVariables: { darkMode: false, primaryColor: '#20B020' } });*/}}
+      mermaid.initialize({ startOnLoad: true, theme: 'neutral' });
     </script>
   {{ end }}
 </html>
