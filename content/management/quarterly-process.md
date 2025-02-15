@@ -16,7 +16,3 @@ toc = true
 4. Prioritization and commitment (see [Week 4 of the year 2025]({{< relref "/posts/week-2025-04" >}}))
 5. Build a game plan (see [Week 5 of the year 2025]({{< relref "/posts/week-2025-05" >}}))
 6. Present next quarter to the team
-
-See also:
-
-1. Quarterly retrospective meeting in [Week 6 of the year 2025]({{< relref "/posts/week-2025-06" >}})
