@@ -6,6 +6,8 @@ title = 'Engineering excellence metrics'
 
 <!--TODO:finish-->
 
+The Engineering Excellence is a measurable efficiency of the dev piline described in [PR lifecycle]({{< relref "/engineering/pr_lifecycle" >}})
+
 Sorry, this articale is not finished yet, but the core idea should be visible from here:
 
 1. Commits in all PRs

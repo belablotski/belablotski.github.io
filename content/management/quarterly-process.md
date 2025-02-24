@@ -1,18 +1,13 @@
 +++
-date = '2024-12-30T21:37:18-08:00'
-draft = false
-title = 'Quarterly Planning Process'
+date = '2025-02-14T21:37:18-08:00'
+draft = true
+title = 'Quarterly Process'
 tags = ['management']
 toc = true
 +++
 
-## Quaterly Planning Process
+## Quaterly Process
 
-*Sorry, this page is not finished yet...* <!--TODO: finalize-->
+Cover the quarterly process end-to-end. The diagram is in week-2025-06
 
-1. PRD reviews
-2. [Capacity Planning]({{< relref "/management/capacity-planning" >}})
-3. [Level-of-Effort Estimations]({{< relref "/management/loe-estimations" >}})
-4. Prioritization and commitment (see [Week 4 of the year 2025]({{< relref "/posts/week-2025-04" >}}))
-5. Build a game plan (see [Week 5 of the year 2025]({{< relref "/posts/week-2025-05" >}}))
-6. Present next quarter to the team
+Add Engineering Strategy there as well - from week-2025-08
