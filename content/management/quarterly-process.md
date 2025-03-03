@@ -11,3 +11,5 @@ toc = true
 Cover the quarterly process end-to-end. The diagram is in week-2025-06
 
 Add Engineering Strategy there as well - from week-2025-08
+
+Annual goal setting that comes after engineering strategy - see week-2025-09
