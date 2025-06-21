@@ -2,7 +2,7 @@
 date = '2025-06-20T22:01:03-08:00'
 draft = false
 title = 'Agentic Applications'
-tags = ['engineering']
+tags = ['engineering', 'ai']
 +++
 Agentic applications represent a significant leap in AI, moving beyond simple chatbots to systems that can autonomously reason, plan, and execute multi-step tasks to achieve a defined goal. They are designed to operate with minimal human intervention, continuously learning and adapting over time.
 <!--more-->
