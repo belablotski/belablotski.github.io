@@ -1,7 +1,7 @@
 +++
 date = '2025-06-21T10:01:03-08:00'
 draft = false
-title = 'Agentic Features for Codehub: Engineering Metrics Intelligence'
+title = 'Agentic Features for Codehub: Engineering Metrics Intelligence (part 1 of 2)'
 tags = ['engineering', 'ai']
 +++
 
@@ -17,6 +17,8 @@ This brainstorming is based on these docs:
 - [PR Lifecycle]({{< relref "/engineering/pr_lifecycle" >}})
 - [Codehub Project - Week 1]({{< relref "/posts/week-2025-01" >}})
 - [Codehub Project - Week 2]({{< relref "/posts/week-2025-02" >}})
+
+Also, this is a part 1, see also - [Agentic Features for Codehub: Engineering Metrics Intelligence (part 2 of 2)]({{< relref "/engineering/ai/agentic_apps/agentic_codehub_p2" >}})
 
 ### For Engineering Managers
 

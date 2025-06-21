@@ -1,11 +1,13 @@
 +++
-date = '2025-06-21T22:01:03-08:00'
-draft = true
-title = 'Agentic Features for Codehub: Engineering Metrics Intelligence'
+date = '2025-06-21T12:01:03-08:00'
+draft = false
+title = 'Agentic Features for Codehub: Engineering Metrics Intelligence (part 2 of 2)'
 tags = ['engineering', 'ai']
 +++
 
-Enhancing your Codehub application with agentic capabilities can transform it from a static reporting tool into an intelligent engineering insights platform that proactively helps teams improve their performance and productivity.
+Enhancing Codehub application with agentic capabilities can transform it from a static reporting tool into an intelligent engineering insights platform that proactively helps teams improve their performance and productivity.
+
+See also [Agentic Features for Codehub: Engineering Metrics Intelligence (part 1 of 2)]({{< relref "/engineering/ai/agentic_apps/agentic_codehub_p1" >}})
 
 <!--more-->
 
