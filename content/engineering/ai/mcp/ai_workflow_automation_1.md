@@ -2,14 +2,12 @@
 date = '2025-07-18T20:51:58-08:00'
 draft = false
 title = 'AI Workflow Automation for an Engineering Manager'
-tags = ['management']
+tags = ['management', 'engineering']
 toc = true
 +++
 
-## Research of AI Workflow Automation for an Engineering Manager
-
 The life of an engineering manager is a constant exercise in context switching. Between processing a flood of emails, keeping up with Slack channels, managing Jira tickets, reading Confluence pages, and preparing for one-on-one meetings with notes in OneNote, the mental overhead can be staggering. The core challenge isn't just managing tasks; it's about maintaining and retrieving context across a dozen different platforms, often in parallel.
-
+<!--more-->
 This is where AI-powered workflow automation comes in. But with a bewildering landscape of tools, what's the right approach? This post explores the journey from identifying the problem to designing a robust, personalized automation strategy.
 
 ## The Landscape: Off-the-Shelf vs. Custom Solutions
@@ -59,3 +57,6 @@ You don't have to choose just one path. The most effective approach is a hybrid 
 3.  **Build Towards a Local AI Future:** As a long-term goal, explore running a local LLM with Ollama. This will give you a completely private and customizable AI assistant, orchestrated by the Gemini CLI, for the ultimate personalized workflow.
 
 By combining these approaches, you can transform your workflow from a series of manual, context-draining tasks into a streamlined, intelligent, and automated system that lets you focus on what truly matters: leading your team.
+
+**See also:**
+* [AI Workflow Automation with Personal MCP server]({{< relref "/engineering/ai/mcp/personal_mcp_server.md" >}})
