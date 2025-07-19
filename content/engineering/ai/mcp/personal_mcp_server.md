@@ -53,7 +53,7 @@ graph TD
     subgraph Your Local Machine
         A[User] -- Natural Language Prompt --> B(Gemini CLI Agent);
         B -- 1. Get Context --> C{MCP Server};
-        B -- 2. Get Data --> D[Data Sources <br> e.g., OneNote via MS365 CLI];
+        B -- 2. Get Data --> D[Data Sources<br/>OneNote via MS365 CLI];
         C -- Populated by --> D;
     end
 
@@ -82,13 +82,13 @@ sequenceDiagram
     participant User
     participant Gemini CLI
     participant MCP Server
-    participant Data Source (e.g., OneNote)
+    participant Data Source
 
     User->>Gemini CLI: "Summarize my last 1-on-1 with Sarah"
     Gemini CLI->>MCP Server: GET /topics/Sarah
-    MCP Server-->>Gemini CLI: Returns context (past projects, goals, etc.)
-    Gemini CLI->>Data Source (e.g., OneNote): Fetch latest note for "Sarah"
-    Data Source (e.g., OneNote)-->>Gemini CLI: Returns note content
+    MCP Server-->>Gemini CLI: Returns context: past projects, goals, etc.
+    Gemini CLI->>Data Source: Fetch latest note for "Sarah"
+    Data Source-->>Gemini CLI: Returns note content
     Gemini CLI->>Gemini CLI: Synthesize context + note content
     Gemini CLI-->>User: Provides context-aware summary and action items
 ```
@@ -101,14 +101,14 @@ This chart details the logic for a typical summarization request.
 graph TD
     Start((Start)) --> A{Parse User Prompt};
     A --> B{Identify Topic & Data Source};
-    B --> C["Query MCP Server for Topic's Context <br> (e.g., GET /topics/Sarah)"];
+    B --> C["Query MCP Server for Topic Context<br/>GET /topics/Sarah"];
     C --> D{Context Found?};
-    D -- Yes --> E[Fetch Primary Data <br> (e.g., OneNote page)];
-    D -- No --> F[Notify User: "No context found for topic"];
+    D -- Yes --> E[Fetch Primary Data<br/>OneNote page];
+    D -- No --> F[Notify User: No context found for topic];
     F --> End((End));
-    E --> G["Combine Context + Primary Data"];
-    G --> H["Perform AI Summarization & Analysis"];
-    H --> I["Format and Present Response to User"];
+    E --> G[Combine Context + Primary Data];
+    G --> H[Perform AI Summarization & Analysis];
+    H --> I[Format and Present Response to User];
     I --> End((End));
 ```
 
