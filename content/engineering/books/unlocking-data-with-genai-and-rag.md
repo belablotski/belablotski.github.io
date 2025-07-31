@@ -4,6 +4,7 @@ draft = false
 title = 'Book Review: Unlocking Data with Generative AI and RAG'
 tags = ['engineering', 'ai', 'book']
 toc = true
+featured_image = '/engineering/books/unlocking-data-with-genai-and-rag.png'
 +++
 
 I recently finished reading "Unlocking Data with Generative AI and RAG" by Keith Bourne, and it provides a comprehensive overview of building systems that can leverage large language models (LLMs) with your own private or new data. This post summarizes my key takeaways from the book.
