@@ -4,7 +4,7 @@ draft = false
 title = 'Thinking in Systems'
 description = 'by Donella Meadows'
 featured_image = 'thinking_in_systems.png'
-tags = ['Book']
+tags = ['book']
 +++
 Systems thinking is essential for addressing complex challenges: understanding system dynamics is crucial for developing effective and sustainable solutions to environmental, social, and economic problems.
 
