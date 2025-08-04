@@ -5,6 +5,13 @@ title = 'Semantic Kernel and AutoGen: Microsoft stack for Multi-Agent AI'
 tags = ['engineering', 'ai']
 +++
 
+Discover how Microsoft's two key frameworks, Semantic Kernel and AutoGen, provide a powerful stack for
+creating sophisticated multi-agent AI systems. This article explores how to build specialized agents with
+Semantic Kernel and orchestrate their collaboration with AutoGen, while also comparing this approach to
+leading alternatives like CrewAI and LangGraph.
+
+<!--more-->
+
 ## Microsoft Semantic Kernel
 
 [Semantic Kernel](https://learn.microsoft.com/en-us/semantic-kernel/get-started/quick-start-guide) is a lightweight, open-source development kit that lets you easily build AI agents and integrate the latest AI models into your C#, Python, or Java codebase. It serves as an efficient middleware that enables rapid delivery of enterprise-grade solutions.
