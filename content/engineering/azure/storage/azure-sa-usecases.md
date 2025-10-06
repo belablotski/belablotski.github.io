@@ -5,25 +5,29 @@ title = 'Automating the Data Deluge: Four Real-World Architectures with Azure St
 tags = ['engineering', 'azure', 'storage']
 +++
 
-Managing data at scale is one of the biggest challenges in modern cloud architecture. As data volumes grow from terabytes to petabytes, manual operations become impossible, and simple scripts become brittle and insecure. Azure Storage Actions, a serverless framework for automating data management in Azure Storage, offers a powerful solution. It provides a no-code, scalable, and secure way to handle operations like lifecycle management, data organization, and policy enforcement across billions of objects.
+Managing data at scale is one of the biggest challenges in modern cloud architecture. As data volumes grow from terabytes to petabytes, manual operations become impossible, and simple scripts become brittle and insecure. [Azure Storage Actions](https://learn.microsoft.com/en-us/azure/storage-actions/storage-tasks/), a serverless framework for automating data management in Azure Storage, offers a powerful solution. It provides a no-code, scalable, and secure way to handle operations like lifecycle management, data organization, and policy enforcement across billions of objects.
 <!--more-->
 
 This post dives deep into four practical, real-world use cases, exploring their architecture, operational challenges, and the powerful patterns you can apply to your own data governance and management strategies.
+
+The GitHub repo is [here](https://github.com/belablotski/azure-sa)
 
 ### The Four Use Cases at a Glance
 
 | Use Case | Primary Goal | Key Challenge |
 | :--- | :--- | :--- |
-| **1. Log Archiving & Deletion** | Automate long-term retention and deletion for compliance. | Ensuring consistent policy application and cost-effective storage over many years. |
-| **2. Media Lifecycle Management** | Optimize storage costs for a massive media library. | Automatically tiering large files from Hot to Cool to Archive based on access patterns. |
-| **3. Data Governance Enforcement** | Proactively tag sensitive data and manage legal holds. | Applying consistent governance rules in near real-time without impacting performance. |
-| **4. On-Demand Data Hydration** | Provide secure, self-service data retrieval from Archive for analytics. | Managing the high cost and latency of Archive retrieval and notifying users upon completion. |
+| **[1. Log Archiving & Deletion](https://github.com/belablotski/azure-sa/blob/main/use-cases/log-archiving-for-compliance.md)** | Automate long-term retention and deletion for compliance. | Ensuring consistent policy application and cost-effective storage over many years. |
+| **[2. Media Lifecycle Management](https://github.com/belablotski/azure-sa/blob/main/use-cases/media-lifecycle-management.md)** | Optimize storage costs for a massive media library. | Automatically tiering large files from Hot to Cool to Archive based on access patterns. |
+| **[3. Data Governance Enforcement](https://github.com/belablotski/azure-sa/blob/main/use-cases/data-governance-with-blob-tags.md)** | Proactively tag sensitive data and manage legal holds. | Applying consistent governance rules in near real-time without impacting performance. |
+| **[4. On-Demand Data Hydration](https://github.com/belablotski/azure-sa/blob/main/use-cases/data-hydration-for-analytics.md)** | Provide secure, self-service data retrieval from Archive for analytics. | Managing the high cost and latency of Archive retrieval and notifying users upon completion. |
 
 ---
 
 ## Four Real-World Architectures with Azure Storage Actions
 
 ### 1. Automated Log Archiving for Compliance
+
+Complete solution is [here](https://github.com/belablotski/azure-sa/blob/main/use-cases/log-archiving-for-compliance.md).
 
 **The Scenario:** A financial services company is required to retain application logs for a specific period (e.g., 30 days) in hot storage for immediate analysis, then archive them for a long-term compliance period (e.g., 7 years), and finally delete them permanently.
 
@@ -52,6 +56,8 @@ graph TD
 ---
 
 ### 2. Data Lifecycle Management for a Media Company
+
+Complete solution is [here](https://github.com/belablotski/azure-sa/blob/main/use-cases/media-lifecycle-management.md)
 
 **The Scenario:** A media company has a massive library of large video files. New and popular content is accessed frequently, but viewership drops off over time. They need to reduce storage costs by moving less popular assets to cheaper storage tiers.
 
@@ -83,6 +89,8 @@ graph TD
 
 ### 3. Enforcing Data Governance with Blob Tags
 
+Complete solution is [here](https://github.com/belablotski/azure-sa/blob/main/use-cases/data-governance-with-blob-tags.md).
+
 **The Scenario:** A healthcare organization needs to ensure that all patient records containing personally identifiable information (PII) are correctly tagged for compliance. They also need the ability to place specific documents under a legal hold to prevent deletion.
 
 **The Solution:** This is a proactive governance scenario.
@@ -110,6 +118,8 @@ graph TD
 ---
 
 ### 4. On-Demand Data Hydration for Analytics
+
+Complete solution is [here](https://github.com/belablotski/azure-sa/blob/main/use-cases/data-hydration-for-analytics.md).
 
 **The Scenario:** An analytics team needs a secure, self-service way to retrieve specific historical data from the low-cost Archive tier for short-term analysis. The main challenges are the high cost and long latency (up to 15 hours) of archive retrieval, and the need to notify the user only when their *entire* dataset is ready.
 
